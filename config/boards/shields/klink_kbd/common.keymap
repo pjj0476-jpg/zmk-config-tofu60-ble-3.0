@@ -21,13 +21,13 @@
 
 / {
     behaviors {
-        //output ~ with RShift
+        // Tap Esc, hold Quote, and send Grave when Shift or GUI is held.
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp GRAVE>;
+            bindings = <&esc_quote SQT ESC>, <&kp GRAVE>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         // Esc when tapped; single quote when held.
