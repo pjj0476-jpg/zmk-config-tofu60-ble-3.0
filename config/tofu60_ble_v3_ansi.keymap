@@ -23,10 +23,10 @@
 
         layer1 {
             bindings = <
-&trans     &kp F1    &kp F2    &kp F3     &kp F4         &kp F5  &kp F6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK  &trans  &trans  &trans  &trans
-&kp MINUS  &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans        &trans  &trans  &trans
-&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans        &trans  &trans
-&trans     &trans    &kp PLUS  &trans     &trans         &trans  &trans  &trans           &kp KP_NUMBER_0  &trans           &trans        &trans  &trans  &trans
+&trans     &kp F1    &kp F2    &kp F3     &kp F4         &kp F5  &kp F6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans  &trans  &trans  &trans
+&kp MINUS  &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans  &trans  &kp N4  &kp NUMBER_5  &kp N6        &trans  &trans  &trans  &trans
+&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans  &trans  &kp N1  &kp N2        &kp N3        &trans  &trans  &trans
+&trans     &trans    &kp PLUS  &trans     &trans         &trans  &trans  &trans  &kp NUMBER_0  &trans        &trans  &trans  &trans  &trans
 &trans     &trans    &trans    &trans     &trans         &trans  &trans  &trans
             >;
         };
